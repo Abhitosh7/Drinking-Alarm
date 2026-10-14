@@ -1,0 +1,9 @@
+import time
+from plyer import notification
+while True:
+    print("Please sip some water")
+
+    notification.notify(title ="Please  sip some water",
+                        message = "You need to drink some water.",
+                        app_name= "Drink water reminder",)
+    time.sleep(2)
